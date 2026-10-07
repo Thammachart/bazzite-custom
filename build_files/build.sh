@@ -26,3 +26,5 @@ dnf5 install -y docker docker-compose docker-buildx
 
 systemctl enable podman.socket
 systemctl enable docker.socket
+systemctl enable sshd.service
+systemctl enable tailscaled.service
